@@ -29,8 +29,8 @@ function App() {
       selectedFiles.forEach((file, index) => {
         formData.append(`screenshots`, file);
       });
-
-      const response = await axios.post('http://localhost:4000/mergeAndDownload', formData, {
+      // http://localhost:4000/mergeAndDownload
+      const response = await axios.post('http://3.108.223.215:4000/mergeAndDownload', formData, {
         responseType: 'blob', // Important for handling binary data
       });
 
