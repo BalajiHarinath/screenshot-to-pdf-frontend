@@ -96,15 +96,25 @@ body {
   text-align: center;
 }
 
-/* .select-files-button {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-top: 10px;
+input[type="file"] {
+  display: none;
 }
 
-.select-files-button:hover {
-  background-color: #0056b3;
-} */
+.custom-file-upload {
+  display: inline-block;
+  width: 30%;
+  padding: 15px;
+  background-color: #ff0022;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.custom-file-upload:hover {
+  background-color: #f53232;
+}
